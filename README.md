@@ -1,1 +1,58 @@
-# MEME
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MemeMagic - Coming Soon</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+        header {
+            background-color: #ffcc00;
+            padding: 20px;
+            width: 100%;
+            position: absolute;
+            top: 0;
+        }
+        h1 {
+            color: #333;
+        }
+        .coming-soon {
+            background: white;
+            padding: 40px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #ffcc00;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MemeMagic</h1>
+    </header>
+    <div class="coming-soon">
+        <h2>Coming Soon!</h2>
+        <p>We're working hard to bring you the MemeMagic experience. Stay tuned for updates!</p>
+    </div>
+    <footer>
+        <p>&copy; 2025 MemeMagic. All rights reserved.</p>
+    </footer>
+</body>
+</html>
